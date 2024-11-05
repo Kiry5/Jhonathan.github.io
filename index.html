@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Temperaturas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <header>
+        <h1>Gráfico de Temperaturas nas Principais Cidades</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Minha região</a>
+        </nav>
+    </header>
+    <main class="graficos-section">
+        <section id="graficos-container" class="graficos-container">
+            <p class="graficos-container_texto">
+                As cidades abaixo tiveram a seguinte média de temperatura no mês passado: <strong class="spant">São Paulo</strong> teve uma média de <strong class="spant">20°C</strong>, <strong class="spant">Rio de Janeiro</strong> ficou com <strong class="spant">30°C</strong> e <strong class="spant">Belo Horizonte</strong> com <strong class="spant">25°C</strong>.
+            </p>
+        </section>
+    </main>
+    <div class="container8">
+        <h1 style="color: #00FFFF;">Gráfico de Temperaturas nas Cidades</h1>
+        <div class="content">
+            <canvas id="myChart" width="800" height="400"></canvas>
+        </div>
+    </div>
+    <footer>
+        <p>Desenvolvido por Jhonathan Gabriel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
